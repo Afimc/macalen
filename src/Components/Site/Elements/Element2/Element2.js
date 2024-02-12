@@ -1,11 +1,13 @@
 import React from "react";
+import './Element2.css';
+
 
 
 
 const Element2=() => {
     return(
         <div>
-            <h1>element</h1>
+            <h1>Element</h1>
         </div>
     )
 }

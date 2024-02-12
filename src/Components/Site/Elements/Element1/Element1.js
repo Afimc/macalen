@@ -1,4 +1,5 @@
 import React from "react";
+import './Element1.css';
 
 
 const Element1 = () => {
