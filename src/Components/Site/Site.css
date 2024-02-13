@@ -1,3 +1,9 @@
 .SiteWraper{
+    box-shadow: 0 4px 30px -2px gray;
+  
+}
+
+.Site{
     text-align: center;
 }
+

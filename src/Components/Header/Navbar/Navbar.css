@@ -1,3 +1,7 @@
+
+
+
+
 ul {
     list-style-type: none;
     display: flex;
@@ -14,26 +18,36 @@ ul {
 
 }
 
-#NavbarFirstElement{
+#searchImg{
+
+  width: 25px;
+  height: 20px;
+  border: 0cap;
+}
+.NavbarLink{
   text-decoration: none;
   font-family: monospace;
   font-size: 22px;
   font-weight: 700;
+
+}
+
+#NavbarFirstElement{
+  
   color: black;
 }
 #NavbarSecondElement{
-  text-decoration: none;
-  font-family: monospace;
-  font-size: 22px;
-  font-weight: 700;
+  
   color: rgba(0,128,198,1);
 }
 
 #NavbarThirdElement{
-  text-decoration: none;
-  font-family: monospace;
-  font-size: 22px;
-  font-weight: 700;
+  
   color: rgba(217,28,92,1) ;
 
 }
+
+/* 
+.NavbarFourthElement{
+
+} */

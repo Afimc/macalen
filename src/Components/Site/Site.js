@@ -11,23 +11,25 @@ import Element9 from './Elements/Element9/Element9';
 import './Site.css';
 
 
-const Site=() => {
-    return(
+const Site = () => {
+    return (
         <div className='SiteWraper'>
-         <div className='TopSiteWraper '>
-          <Element1/>
-          <Element2/>
-          <Element3/>
-          <Element4/>
-          <Element5/>
-          <Element6/>
-         </div>
-         <div className='BottomSiteWraper'>
-         <Element7/>
-         <Element8/>
-         <Element9/>
+            <div className='MaxWidth Site'>
+                <div className='TopSiteWraper '>
+                    <Element1 />
+                    <Element2 />
+                    <Element3 />
+                    <Element4 />
+                    <Element5 />
+                    <Element6 />
+                </div>
+                <div className='BottomSiteWraper'>
+                    <Element7 />
+                    <Element8 />
+                    <Element9 />
 
-         </div>
+                </div>
+            </div>
         </div>
     )
 }

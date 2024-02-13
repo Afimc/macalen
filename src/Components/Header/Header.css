@@ -1,13 +1,19 @@
 .Header{
-    border: 1px solid red;
     background-color: rgb(255, 255, 255);
     display: flex;
-    position: sticky; top: 0;
 
 }
+
+.HeaderWrapper{
+box-shadow: 0 4px 30px -2px gray;
+position: sticky; top: 0;
+
+}
+
+
+
 img{
-    margin: 0 auto 0 0;
-  border: 1px solid black;
+  margin: 0 auto 0 0;
   width: 300px;
   height: 70px;
 }

@@ -4,7 +4,7 @@ import './Element1.css';
 
 const Element1 = () => {
     return(
-        <div>
+        <div className="Element1">
             <h1>Element</h1>
         </div>
     )
