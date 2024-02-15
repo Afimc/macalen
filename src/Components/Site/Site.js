@@ -1,5 +1,5 @@
 import React from "react";
-import Element1 from './Elements/Element1/Element1';
+import HomeOfferCards from './Elements/HomeOfferCards/HomeOfferCards';
 import Element2 from './Elements/Element2/Element2';
 import Element3 from './Elements/Element3/Element3';
 import Element4 from './Elements/Element4/Element4';
@@ -16,7 +16,7 @@ const Site = () => {
         <div className='SiteWraper'>
             <div className='MaxWidth Site'>
                 <div className='TopSiteWraper '>
-                    <Element1 />
+                    <HomeOfferCards />
                     <Element2 />
                     <Element3 />
                     <Element4 />

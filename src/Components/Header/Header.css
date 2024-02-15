@@ -1,12 +1,14 @@
 .Header{
     background-color: rgb(255, 255, 255);
     display: flex;
+    margin: 0 auto;
 
 }
 
 .HeaderWrapper{
 box-shadow: 0 4px 30px -2px gray;
 position: sticky; top: 0;
+
 
 }
 

@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
     return(
         <div className='HeaderWrapper'>
-          <div className='MaxWidth, Header'>
+          <div className='MaxWidth Header'>
             <img alt="logo" src="assets\pics\logo.webp"/>
             <Navbar/>
           </div>

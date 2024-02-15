@@ -1,11 +1,5 @@
-.GlobalWraper{
 
-  /* border: 1px solid black; */
-
-  
-}
 .MaxWidth{
   max-width: 1280px;
   margin: 0 auto;
-  border: 1px solid red;
 }
