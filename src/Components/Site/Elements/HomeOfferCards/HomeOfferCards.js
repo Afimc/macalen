@@ -20,3 +20,9 @@ const HomeOfferCards = () => {
 }
 
 export default HomeOfferCards;
+
+
+const props = {
+    
+    
+}

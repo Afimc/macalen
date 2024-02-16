@@ -6,15 +6,18 @@ const Card = (props) => {
     return (
         <div className="Card ">
             <div className="TopOffer">
-            <div className='pic'>
-                <img  alt='sky'
-                  src={props.Offer.pic}
-                />
+                <div className='pic'>
+                    <img alt='sky'
+                        src={props.Offer.pic} />
                 </div>
-                {props.Offer.title} 
-                {props.Offer.uperText}
+                <div className='text'>
+                    {props.Offer.title}
+                    {props.Offer.uperText}
+                </div>
             </div>
-            <div>{props.Offer.bottomText}</div>
+                <div className='bottomText'>
+                    {props.Offer.bottomText}
+                </div>
         </div>
     );
 };
