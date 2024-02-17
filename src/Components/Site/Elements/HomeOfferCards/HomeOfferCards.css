@@ -1,5 +1,7 @@
 .HomeOfferCards{
     border: 1px solid black;
     display: flex;
+    margin-top: 25px;
+    height: 450px;
   
 }

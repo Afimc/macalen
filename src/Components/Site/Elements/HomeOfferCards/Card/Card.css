@@ -6,7 +6,6 @@ img{
     width: auto; 
     height: auto;   
     border: 1px solid red;
-    padding: 0px 10px;
 }
 
 .TopOffer {
@@ -26,4 +25,5 @@ img{
 
 .bottomText{
    background-color: blue;
+height: 80px;
 }
