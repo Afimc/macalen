@@ -1,0 +1,54 @@
+
+.GlobalCategoriesWraper{
+    background-color: rgb(234, 235, 239);
+
+   
+
+}
+.CategoriesWraper{
+    text-align: left;
+}
+
+
+
+.Categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 10px;
+    
+    
+    
+}
+.category{
+    width: 230px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10%;
+    margin: auto;
+
+
+}
+img{
+  width: auto;
+  height: auto;
+  size: cover;
+  margin: auto;
+  transition: transform .2s;
+ 
+
+
+}
+img:hover{
+transform: scale(1.1);
+}
+
+.CategoriesLogo{
+    width: auto;
+    overflow: hidden;
+}
+#CatLogo{
+  width: 100%;
+  height: auto;
+  size: cover;
+  margin: auto;
+}

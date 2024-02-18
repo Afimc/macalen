@@ -7,7 +7,7 @@ import {Offers} from '../../../../Data/Offers';
 
 const HomeOfferCards = () => {
     return(
-        <div className="HomeOfferCards">
+        <div className="HomeOfferCards MaxWidth">
             {
                 Offers.map(Offer =>{
                     return(

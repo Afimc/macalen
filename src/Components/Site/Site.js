@@ -1,6 +1,6 @@
 import React from "react";
 import HomeOfferCards from './Elements/HomeOfferCards/HomeOfferCards';
-import Element2 from './Elements/Element2/Element2';
+import Categories from './Elements/Categories/Categories';
 import Element3 from './Elements/Element3/Element3';
 import Element4 from './Elements/Element4/Element4';
 import Element5 from './Elements/Element5/Element5';
@@ -14,10 +14,10 @@ import './Site.css';
 const Site = () => {
     return (
         <div className='SiteWraper'>
-            <div className='MaxWidth Site'>
+            <div className='Site'>
                 <div className='TopSiteWraper '>
                     <HomeOfferCards />
-                    <Element2 />
+                    <Categories />
                     <Element3 />
                     <Element4 />
                     <Element5 />

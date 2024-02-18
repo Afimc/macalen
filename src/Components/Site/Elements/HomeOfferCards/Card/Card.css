@@ -1,29 +1,49 @@
-img{
+#img{
   max-width: 100%;
   height: auto;
+  transition: transform .2s;
+}
+
+#img:hover{
+    transform: 5;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .Card{
     width: auto; 
     height: auto;   
-    border: 1px solid red;
+    /* position: relative; */
+    margin: 10px 0px 0px 10px;
+    overflow: hidden;
+
+
+
 }
 
+
+/* 
 .TopOffer {
   
     width: auto;
     height: auto;
     position:relative;
-}
+} */
 
-.text{
+/* .text{
     float: left;
     position: absolute;
     left: 0px;
     top: 0px;
 
-}
-
+} */
+/* 
 .bottomText{
-   background-color: blue;
-height: 80px;
-}
+   background-color: rgb(55, 116, 181);
+   height: 70px;
+   float: left; 
+   position: absolute;
+   left: 0px; 
+   top:380px;
+   font-size: small;
+   color: aliceblue; 
+}  */
