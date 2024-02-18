@@ -14,7 +14,7 @@ import './Site.css';
 const Site = () => {
     return (
         <div className='SiteWraper'>
-            <div className='Site'>
+            <div className=' Site'>
                 <div className='TopSiteWraper '>
                     <HomeOfferCards />
                     <Categories />

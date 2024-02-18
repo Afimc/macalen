@@ -1,5 +1,6 @@
 
 .GlobalCategoriesWraper{
+    margin-top: 30px;
     background-color: rgb(234, 235, 239);
 
    
@@ -7,48 +8,65 @@
 }
 .CategoriesWraper{
     text-align: left;
+    
 }
 
-
+h2{
+   padding: 15px 0px 0px 5px;
+}
 
 .Categories{
     display: flex;
     flex-wrap: wrap;
-    gap: 60px 10px;
+    gap: 10px;
+
     
     
     
 }
+.CategoryCard{
+margin: auto;
+}
 .category{
-    width: 230px;
+    width: 240px;
     height: 200px;
     overflow: hidden;
     border-radius: 10%;
     margin: auto;
+   
 
 
 }
-img{
+#CatImg{
   width: auto;
   height: auto;
   size: cover;
   margin: auto;
   transition: transform .2s;
+  
  
 
 
 }
-img:hover{
+#CatImg:hover{
 transform: scale(1.1);
 }
 
 .CategoriesLogo{
     width: auto;
     overflow: hidden;
+
 }
 #CatLogo{
   width: 100%;
   height: auto;
   size: cover;
   margin: auto;
+  transition: transform .2s;
+}
+#CatLogo:hover{
+    transform: scale(1.1);
+}
+p{
+    text-align: center;
 }
