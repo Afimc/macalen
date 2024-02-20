@@ -9,15 +9,13 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
 .Card{
     width: auto; 
     height: auto;   
     /* position: relative; */
     margin: 10px 0px 0px 10px;
     overflow: hidden;
-
-
-
 }
 
 

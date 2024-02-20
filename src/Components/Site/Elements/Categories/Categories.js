@@ -1,9 +1,6 @@
 import React from "react";
 import './Categories.css';
 
-
-
-
 const Categories = () => {
     return (
         <div className='GlobalCategoriesWraper'>
@@ -90,24 +87,13 @@ const Categories = () => {
                         </div>
                         <p>Подарък за рожден ден</p>
                     </div>
-
-
                 </div>
                 <div className='CategoriesLogo'>
                     <img id="CatLogo" alt='logo' src="assets/pics/CategoriesLogo.jpg"></img>
                 </div>
-
-
             </div>
-
-
         </div>
-
-
     )
 }
-
-
-
 
 export default Categories;

@@ -3,8 +3,6 @@
     margin-top: 30px;
     background-color: rgb(234, 235, 239);
 
-   
-
 }
 .CategoriesWraper{
     text-align: left;
@@ -20,9 +18,6 @@ h2{
     flex-wrap: wrap;
     gap: 10px;
 
-    
-    
-    
 }
 .CategoryCard{
 margin: auto;
@@ -33,8 +28,6 @@ margin: auto;
     overflow: hidden;
     border-radius: 10%;
     margin: auto;
-   
-
 
 }
 #CatImg{
@@ -44,9 +37,6 @@ margin: auto;
   margin: auto;
   transition: transform .2s;
   
- 
-
-
 }
 #CatImg:hover{
 transform: scale(1.1);
